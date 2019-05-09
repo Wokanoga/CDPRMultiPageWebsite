@@ -19,6 +19,7 @@
     transform: translatex(-50%);
 }
 
-.colorWhite{
-    
+.iconSize {
+    width: 4rem;
+    height: 4rem;
 }

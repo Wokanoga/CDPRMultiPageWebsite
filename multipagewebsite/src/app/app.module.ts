@@ -10,7 +10,8 @@ import { RouterModule, Routes } from '@angular/router';
 
 const appRoutes: Routes = [
   { path: 'about-founders', component: AboutFoundersComponent },
-  { path: 'landing-lg',      component: LandingPgComponent }
+  { path: 'landing-lg',      component: LandingPgComponent },
+  { path: '', redirectTo: 'landing-lg', pathMatch: 'full'}
 ];
 
 @NgModule({
