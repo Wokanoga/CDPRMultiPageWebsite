@@ -5,12 +5,14 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { LandingPgComponent } from './landing-pg/landing-pg.component';
 import { NavbarComponent } from './navbar/navbar.component';
+import { AboutFoundersComponent } from './about-founders/about-founders.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     LandingPgComponent,
-    NavbarComponent
+    NavbarComponent,
+    AboutFoundersComponent
   ],
   imports: [
     BrowserModule,
