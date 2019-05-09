@@ -6,6 +6,12 @@ import { AppComponent } from './app.component';
 import { LandingPgComponent } from './landing-pg/landing-pg.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { AboutFoundersComponent } from './about-founders/about-founders.component';
+import { RouterModule, Routes } from '@angular/router';
+
+const appRoutes: Routes = [
+  { path: 'about-founders', component: AboutFoundersComponent },
+  { path: 'landing-lg',      component: LandingPgComponent }
+];
 
 @NgModule({
   declarations: [
@@ -16,7 +22,11 @@ import { AboutFoundersComponent } from './about-founders/about-founders.componen
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    RouterModule.forRoot(
+      appRoutes,
+      { enableTracing: true }
+    )
   ],
   providers: [],
   bootstrap: [AppComponent]
