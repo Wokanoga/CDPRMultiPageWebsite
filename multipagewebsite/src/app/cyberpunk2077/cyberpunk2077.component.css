@@ -1,12 +1,7 @@
-.cyberInfo{
-    background-color: black;
-    color: white;
-}
-
-.cyberBg{
-    background-color: #161616;
-}
-
 b{
-    color: #ff0000;
+    color: yellow;
+}
+
+b b{
+    color: aqua;
 }
