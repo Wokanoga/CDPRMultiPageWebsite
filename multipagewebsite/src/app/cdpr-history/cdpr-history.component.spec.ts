@@ -1,20 +1,20 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { Witcher2Component } from './witcher2.component';
+import { CDPRHistoryComponent } from './cdpr-history.component';
 
-describe('Witcher2Component', () => {
-  let component: Witcher2Component;
-  let fixture: ComponentFixture<Witcher2Component>;
+describe('CDPRHistoryComponent', () => {
+  let component: CDPRHistoryComponent;
+  let fixture: ComponentFixture<CDPRHistoryComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ Witcher2Component ]
+      declarations: [ CDPRHistoryComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(Witcher2Component);
+    fixture = TestBed.createComponent(CDPRHistoryComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

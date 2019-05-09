@@ -1,20 +1,20 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { Witcher1Component } from './witcher1.component';
+import { WitcherSeriesComponent } from './witcher-series.component';
 
-describe('Witcher1Component', () => {
-  let component: Witcher1Component;
-  let fixture: ComponentFixture<Witcher1Component>;
+describe('WitcherSeriesComponent', () => {
+  let component: WitcherSeriesComponent;
+  let fixture: ComponentFixture<WitcherSeriesComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ Witcher1Component ]
+      declarations: [ WitcherSeriesComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(Witcher1Component);
+    fixture = TestBed.createComponent(WitcherSeriesComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
