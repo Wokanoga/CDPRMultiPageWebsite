@@ -1,3 +1,8 @@
-#foundersWhite {
-    color: white;
+.respectableSize {
+    max-width: 100%;
+}
+
+.center-photo {
+    display: flex;
+    justify-content: center;
 }

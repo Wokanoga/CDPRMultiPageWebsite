@@ -1,19 +1,8 @@
 .nav-link{
-    color: white;
-    font-size:20px;
+    font-size:1.25rem;
 }
 
-.navbar-brand{
-    color: white;
-    text-align: center;
-}
-
-.navColor{
-    background-color: transparent;
-    color: white;
-}
-
-.navbar-nav.navbar-center {
+.navbar-center {
     position: absolute;
     left: 50%;
     transform: translatex(-50%);
@@ -22,4 +11,8 @@
 .iconSize {
     width: 4rem;
     height: 4rem;
+}
+
+.navbar {
+    background-color: black;
 }
